@@ -1,0 +1,211 @@
+body{
+  padding-bottom: 0%;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #424549;
+}
+#container{
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+#icon{
+  height: 50px;
+  margin: 0%;
+  display: inline;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+#search{
+  display: inline-block;
+  margin-left: 8%;
+  padding-top: 10px;
+}
+#search-text{
+  font-family: Dosis;
+  height: 42px;
+  width: 200px;
+  padding: 0%;
+  font-size: 18px;
+  display: inline;
+  padding-right: 10px;
+  border: 1px solid #FFF;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;  
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+#search-button{
+  position: absolute;
+  border: transparent;
+  display: inline;
+  background-color: #8098ed;
+  color: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 24px;
+  width: 54px;
+  height: 45px;
+  padding-left: 5px;
+}
+#search-button:hover{
+  cursor: pointer;
+  background-color: #5a6db0;
+}
+a{
+  font-weight: bolder;
+  color: #7289da	;
+  font-family: Dosis;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 50px ;
+}
+a:hover{
+  color: white;
+}
+#dropbtn {
+  font-weight: bolder;
+  color: #7289da	;
+  font-family: Dosis;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 65px ;
+}
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-content {
+  font-weight: bolder;
+  font-size: 20px;
+  display: none;
+  position: absolute;
+  background-color: 	#343b42	;
+  color: white;
+  border-radius: 50px;
+}
+
+#dropdown-content a {
+  text-decoration: none;
+  padding-top: 10px;
+  display: block;
+  padding-right: 20px;
+}
+
+#dropdown-content a:hover {background-color: transparent; color: white;}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown:hover #dropbtn {
+  color: white;
+}
+button{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+h2{
+  text-align: center;
+    bottom:1px;
+    display: block;
+    font-family: Dosis;
+  }    
+h4{
+    bottom:1px;
+    display: block;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 20px;
+  }  
+  #d-btn{
+    text-align: left;
+    color: 	#7289da;
+    padding-right: 100px;
+}
+#d-content{
+    display: block;
+    color: white;
+    position: auto;
+}
+#d-down {
+    text-align: left;
+    position: relative;
+    display: block;
+  }
+#d-content #d-btn {
+    text-decoration: none;
+    display: block;
+    width: 50%;
+  }
+  #d-down:active #d-content {
+    display: block;
+    padding: 0%;
+    margin: 0%;
+  }
+  #d-down:hover #d-content {
+    display: block;
+    padding: 0%;
+    margin: 0%;
+  }
+#dad{
+    background-color: #1e2124;
+    border-radius: 100px;
+}
+h1{
+  font-weight: bolder;
+  color: #7289da	;
+  font-size: 20px;
+  font-family: Dosis;
+  text-align: center;
+  }  
+  h2{
+  color: #7289da	;
+  text-align: center;
+  font-family: Dosis;
+  margin-top: 70px;
+  font-size: 50px;
+  }
+  p{
+    font-weight: bold;
+    font-family: Dosis;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    font-size: 20px;
+    }
+  #probot{
+    font-weight: bolder;
+    font-family: Dosis;
+    margin-left: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color:#7289da;
+    font-size: 16;
+  }
+  #probot:hover{
+    color: #e5e5e5;
+  }
+  #d-btn{
+    color: #7289da	;
+    font-family: Dosis;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 65px ;
+    margin-bottom: 10px;
+  }  
+span{
+  font-weight: bolder;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 16px;
+}  
