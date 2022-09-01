@@ -13,6 +13,9 @@ window.onload = function(){
       if (searchingWord == "Fortnite" || searchingWord == "fortnite") {
         window.open("#", "_self")
       }
+      if (searchingWord == " ".trim()) {
+        alert("Write something first!", "_self")
+      }      
       else {
         alert("Oops , didn't find the word you're looking for :(");
     
